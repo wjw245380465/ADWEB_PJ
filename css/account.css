@@ -1,0 +1,55 @@
+.login-frame-center{
+
+  width: 50%;
+  min-width: 300px;
+  height: 100%;
+  margin: auto;
+
+}
+
+.login-frame{
+	position: absolute;
+	top: 100px;
+	height: 100%;
+	width: inherit;
+}
+
+/* TODO 直接改有bug，先随便来个 */
+.login-frame-2{
+	position: absolute;
+	top: 100px;
+	height: 100%;
+	width: inherit;
+}
+
+.button-register{
+	position: absolute;
+	right: 0;
+}
+
+.switch-frame{
+	line-height: 47px;
+	width: inherit;
+}
+
+.error-show{
+	text-align: center;
+}
+
+.avatar{
+
+  height: 100px;
+  width: 100px;
+}
+.avatar-frame{
+  text-align: center;
+  padding-top: 20px;
+}
+
+.button-delete{
+  float: right;
+}
+
+.account-item{
+  line-height: 20px;
+}

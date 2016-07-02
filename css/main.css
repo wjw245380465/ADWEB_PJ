@@ -1,0 +1,90 @@
+.search-frame {
+  top:44px;
+}
+#mainView #baidu-map-api {
+  width:100%;
+  top:88px;
+  bottom:49px;
+  position: absolute;
+}
+
+
+.tabs-view{
+	
+	height: 49px;
+	bottom: 0px;
+	position: absolute;
+}
+
+#info-frame{
+	
+	width: 100%;
+	height: 0;
+	transition:height 0.4s;
+	background-color: transparent;
+	opacity: 0.95;
+	bottom: 0;
+	overflow: all;
+}
+
+.view-container{
+	background-color: white;
+}
+
+ion-nav-view, body, .pane{
+	background-color: transparent;
+}
+
+#info-frame > div > div{
+	left: 10px;
+	right: 10px;
+	width: auto;
+	box-shadow: 0 0 10px #888;
+}
+
+.card-list{
+  top: 44px;
+  bottom: 0px;
+  position: absolute;  
+  width: 100%;
+
+}
+
+.scroll-view.scroll-y {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.scroll-view.scroll-x {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.filter-frame{
+	top: 88px;
+	overflow: hidden;
+	right: 0;
+	position: absolute;
+	width: 200px;
+	height: 0;
+	background-color: white;
+	transition:height 0.4s;
+}
+
+.filter-frame .bar-header{
+	z-index: 0;
+}
+
+
+.filter-button{
+	top: 88px;
+	right: 0;
+	position: absolute;
+}
+
+#route-search{
+	display: none;
+}
+
+#route-search > label{
+	margin: 0 10px;
+}

@@ -1,0 +1,89 @@
+#item-overview{
+  background-color: #fff;
+  bottom:94px;
+  top:88px;
+}
+
+.red-star, .grey-star{
+	width: 12px;
+	height: 12px;
+
+	text-align: center;
+	border-radius: 3px;
+	margin: 1px;
+	line-height: 7px;
+	float: right;
+}
+
+.rank-star{
+	color: white;
+	font-size: 10px;
+}
+
+.red-star{
+	background-color: #ef473a;
+
+}
+
+.grey-star{
+	background-color: #ddd;
+
+}
+
+.percentage{
+	background-color: #ef473a;
+	height: 13px;
+
+
+	vertical-align: top;
+	float: left;
+}
+
+.percentage-num{
+	float: left;
+	font-size: 13px;
+	line-height: 13px;
+}
+
+.overview-component{
+	height: 100px;
+	border-color: #ddd;
+	border-style: solid;
+	border-width: 0px 0px 1px;
+}
+
+.comment-item{
+  width: 100%;
+  border-bottom: solid 1px #dededd;
+}
+
+.avatar-icon{
+  height: 50px;
+  width: 50px;
+}
+
+.cmt-left-frame{
+  height: 50px;
+  width: 50px;
+  float: left;
+
+}
+.cmt-right-frame {
+  width: inherit;
+  margin-left: 60px;
+}
+
+.cmt-name-and-time{
+  height: 20px;
+}
+
+.cmt-username{
+  float: left;
+
+}
+.cmt-time{
+  float: left;
+  color: #4d4d4d;
+  margin-bottom: 0;
+  margin-left: 20px;
+}

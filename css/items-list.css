@@ -1,0 +1,64 @@
+.list-frame{
+
+  position: absolute;
+  width: 100%;
+}
+
+.list-frame .left-frame{
+  top:88px;
+  bottom:49px;
+  width:100%;
+  position: absolute;
+  background-color: #fff;
+}
+
+.slide-bar{
+  bottom:49px;
+  position: absolute;
+  background-color: #fff;
+}
+
+.list-frame .slider {
+  height: 100%;
+}
+.list-frame .slider-slide {
+  background-color: #fff;
+  text-align: center;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+}
+
+.list-frame .box {
+  background-color: #fff;
+  height: 100%;
+}
+.list-frame .slider-slide > div > h2{
+  color: #888;
+}/* Empty. Add your own CSS if you like */
+
+#history-item-list{
+  background-color: #fff;
+  bottom:49px;
+  top:88px;
+
+}
+
+#item-list{
+  bottom:94px;
+  top:88px;
+}
+
+#nearby-item-list{
+  background-color: #fff;
+  bottom:94px;
+  top:0px;
+
+}
+
+#account-login{
+  background-color: #fff;
+  bottom:49px;
+  top:88px;
+}
+
+
